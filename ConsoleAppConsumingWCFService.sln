@@ -4,17 +4,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppConsumingWCFService", "ConsoleAppConsumingWCFService\ConsoleAppConsumingWCFService.csproj", "{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204} = {BCF307B6-8386-47A3-87AF-C045FCCBE204}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWcfService", "MyWcfService\MyWcfService.csproj", "{BCF307B6-8386-47A3-87AF-C045FCCBE204}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Debug|x86.ActiveCfg = Debug|x86
+		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Debug|x86.Build.0 = Debug|x86
 		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Release|x86.ActiveCfg = Release|x86
+		{D7C5C3BE-8EB1-45AC-A457-76606E191D9C}.Release|x86.Build.0 = Release|x86
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Debug|x86.ActiveCfg = Debug|x86
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Debug|x86.Build.0 = Debug|x86
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Release|x86.ActiveCfg = Release|x86
+		{BCF307B6-8386-47A3-87AF-C045FCCBE204}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
